@@ -2,29 +2,29 @@ from enum import Enum
 
 
 class SystemStatus(Enum):
-    CONTINUOUS_LOAD =      0 # Dauerlast
-    DOMESTIC_HOT_WATER =   1 # Brauchwasser
-    AUTOMATIC =            2 # Automatik
-    FIREWOOD_OPERATION =   3 # Scheitholzbetr
-    CLEANING =             4 # Reinigen
-    OFF =                  5 # Ausgeschaltet
-    EXTRA_HEATING =        6 # Extraheizen
-    CHIMNEY_SWEEP =        7 # Kaminkehrer
-    CLEANING2 =            8 # Reinigen2
+    CONTINUOUS_LOAD =      0 # Charge continue
+    DOMESTIC_HOT_WATER =   1 # Eau chaude sanitaire
+    AUTOMATIC =            2 # Automatique
+    FIREWOOD_OPERATION =   3 # Fonctionnement au bois de chauffage
+    CLEANING =             4 # Nettoyage
+    OFF =                  5 # Éteint
+    EXTRA_HEATING =        6 # Chauffage supplémentaire
+    CHIMNEY_SWEEP =        7 # Ramoneur
+    CLEANING2 =            8 # Nettoyage2
 
 class FurnaceStatus(Enum):
-    FAULT =           0  # STÖRUNG      
-    FURNACAE_OFF =    1  # Kessel_Aus
-    HEATING_UP =      2  # Anheizen
-    HEATING =         3  # Heizen
-    SLUMBER =         4  # Feuererhaltung
-    FIRE_OFF =        5  # Feuer_Aus
-    DOOR_OPEN =       6  # Tür_offen
-    PREPARATION =     7  # Vorbereitung
-    PRE_HEATING =     8  # Vorwärmen
-    IGNITION =        9  # Zünden
-    SHUTDOWN_WAIT =   10 # Abstellen_Warten
-    SHUTDOWN_WAIT_1 = 11 # Abstellen_Warten1
+    FAULT =           0  # DÉFAUT    
+    FURNACAE_OFF =    1  # Chaudière éteinte
+    HEATING_UP =      2  # Montée en température
+    HEATING =         3  # Chauffage
+    SLUMBER =         4  # Maintien du feu
+    FIRE_OFF =        5  # Feu éteint
+    DOOR_OPEN =       6  # Porte ouverte
+    PREPARATION =     7  # Préparation
+    PRE_HEATING =     8  # Préchauffage
+    IGNITION =        9  # Allumage
+    SHUTDOWN_WAIT =   10 # Attente d'arrêt
+    SHUTDOWN_WAIT_1 = 11 # Attente d'arrêt1
     SHUTDOWN_FEED_1 = 12 # Abstellen_Einschub1
     SHUTDOWN_WAIT_2 = 13 # Abstellen_Warten2
     SHUTDOWN_FEED_2 = 14 # Abstellen_Einschub2
